@@ -27,7 +27,6 @@ body {
     font-size: 24px;
     color:#87CEEB;
     border: 2px solid #87CEEB
-}
     animation: fadeOut 0.1s ease-in-out forwards;
     animation-delay: 0.1s;
 }
