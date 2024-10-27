@@ -20,15 +20,19 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.9); /* 半透明黑色背景 */
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
-    color:#87CEEB;
-    animation: fadeOut 1s 
-    ease-in-out forwards;
-    animation-delay: 1s;
+    font-size: 36px; /* 字体大小增大 */
+    color: #87CEEB; /* 浅蓝色字体 */
+    border: 2px solid #87CEEB; /* 添加浅蓝色边框 */
+    border-radius: 50%; /* 边框圆角 */
+    padding: 20px; /* 内边距 */
+    box-shadow: 0 0 10px rgba(135, 206, 235, 0.5); /* 添加阴影 */
+    animation: spin 2s linear infinite, fadeOut 1s ease-in-out forwards; /* 添加旋转动画 */
+    animation-delay: 0s, 3s; /* 旋转动画立即开始，淡出动画在3秒后开始 */
+
 }
 
 @keyframes fadeOut {
