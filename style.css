@@ -25,7 +25,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    color: #add8e6;
+    color: red;
     animation: fadeOut 0.3s ease-in-out forwards;
     animation-delay: 0.3s;
 }
