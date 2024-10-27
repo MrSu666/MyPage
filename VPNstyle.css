@@ -12,40 +12,48 @@ body {
     background-color: #f7f7f7;
 }
 
-header, nav, main, footer {
-    max-width: 800px;
+/* 容器样式 */
+.container {
+    max-width: 1200px;
     margin: auto;
     padding: 20px;
 }
 
+/* 头部样式 */
 header {
     text-align: center;
     background: #333;
     color: #fff;
-    padding: 10px 20px;
+    padding: 20px 0;
+}
+
+/* 导航栏样式 */
+nav {
+    background-color: #444;
+    padding: 10px 0;
 }
 
 nav ul {
     list-style: none;
-    padding: 10px 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 10px;
+    margin: 0 10px;
 }
 
 nav ul li a {
-    color: #333;
+    color: #fff;
     text-decoration: none;
     padding: 5px 10px;
 }
 
 nav ul li a:hover {
     background-color: #555;
-    color: #fff;
 }
 
+/* 主内容样式 */
 main {
     background: #fff;
     padding: 20px;
@@ -65,21 +73,27 @@ section h2 {
     margin-bottom: 20px;
 }
 
-article h3 {
+.category article {
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.category article h3 {
     color: #007BFF;
     margin-bottom: 10px;
 }
 
-article p {
+.category article p {
     margin-bottom: 10px;
 }
 
+/* 页脚样式 */
 footer {
-    background: #333;
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    margin-top: 20px;
 }
