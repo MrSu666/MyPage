@@ -33,19 +33,6 @@ body {
     animation: spin 2s linear infinite, fadeOut 1s ease-in-out forwards; /* 添加旋转动画 */
     animation-delay: 0s, 3s; /* 旋转动画立即开始，淡出动画在3秒后开始 */
 }
-
-/* 添加旋转动画 */
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-
-
     animation: fadeOut 0.1s ease-in-out forwards;
     animation-delay: 0.1s;
 }
