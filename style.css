@@ -1,12 +1,14 @@
 /* 时间戳样式 */
 .timestamp{
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 5px;
+    left: 10px;
     background-color: #333;
     color: #fff;
-    padding: 5px;
-    font-size: 14px;
+    padding: 3px;
+    border:5px 10px ;
+    border-radius: 8px;
+    font-size: 12px;
 }
 /* 全局样式 */
 * {
