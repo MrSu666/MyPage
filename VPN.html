@@ -3,45 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VPN分享网站</title>
-    <link rel="stylesheet" href="VPNstyle.css">
+    <title>免费VPN</title>
+    <link rel="stylesheet" href="ResourceStyle.css">
+	<style type="text/css">
+		body{
+			background: url("https://img.picui.cn/free/2024/10/28/671f62f1c1a50.jpg") no-repeat center center fixed;
+			                /*兼容浏览器版本*/
+			                -webkit-background-size: cover;
+			                -o-background-size: cover;                
+			                background-size: cover;
+
+		}
+	</style>
 </head>
 <body>
     <header>
-        <h1>VPN分享网站</h1>
+        <h1>免费VPN</h1>
     </header>
 
     <nav>
         <div class="container">
             <ul class="flex-nav">
-                <li><a href="#software">软件篇</a></li>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="resource.html">资源分享</a></li>
             </ul>
         </div>
     </nav>
 
     <main class="container">
-        <section id="software">
-            <h2>软件篇</h2>
-            <div class="card-grid">
-                <article class="card">
-                    <h3>开源翻墙软件集合</h3>
-                    <p>这里将介绍一些开源的翻墙软件，它们通常由社区维护，可以自由下载和修改。</p>
-                </article>
+        <section id="showcase">
+            <div class="carousel">
+                <div class="carousel-item active">
+					<img src="V2RAY.jpg" alt="资源展示图1">
+                    <div class="carousel-caption">
+                        <h3>V2RAY</h3>
+                        <p>一款完全免费的安卓VPN 优点:完全免费 缺点：较慢</p>
+                    </div>
+                </div>
+                <!-- 更多轮播项 -->
+            </div>
+        </section>
 
-                <article class="card">
-                    <h3>闭源翻墙软件集合</h3>
-                    <p>这里将介绍一些闭源的翻墙软件，这些软件通常由公司或个人开发，提供专业的服务和支持。</p>
-                </article>
-
-                <article class="card">
-                    <h3>推荐机场</h3>
-                    <p>这里将分享一些推荐的VPN服务提供商，它们提供稳定的连接和良好的隐私保护。</p>
-                </article>
-
-                <article class="card">
-                    <h3>自己搭建机场</h3>
-                    <p>如果你想要更多的控制权和隐私，这里将提供指导如何自己搭建VPN服务器。</p>
-                </article>
+        <section id="resources">
+            <h2>热门资源</h2>
+            <div class="resource-grid">
+                <div class="resource-card">
+                    <img src="image2.png" alt="资源展示图2">
+                    <div class="card-content">
+                        <h3>资源2</h3>
+                        <p>资源描述信息。</p>
+                    </div>
+                </div>
+                <!-- 更多资源卡片 -->
             </div>
         </section>
     </main>
@@ -49,5 +62,7 @@
     <footer class="container">
         <p>版权所有 &copy; 2024 Github MrSu666</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
