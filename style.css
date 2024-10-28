@@ -1,3 +1,13 @@
+/* 时间戳样式 */
+.timestamp{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    font-size: 14px;
+}
 /* 全局样式 */
 * {
     margin: 0;
